@@ -1,0 +1,23 @@
+{
+  "name": "ai-manufacturing-copilot-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API layer for AI-Powered Manufacturing Operations Copilot",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed/seed.js",
+    "verify": "node scripts/verifyData.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.2.0"
+  }
+}
